@@ -1,0 +1,270 @@
+.index {
+  min-height: 100vh;
+
+  .first {
+    height: 80vh;
+    color: #000;
+    padding-left: 15%;
+    padding-right: 15%;
+
+    .info {
+      height: 60vh;
+      padding-top: 10%;
+      margin-top: 10%;
+
+      h1 {
+        font-size: 5rem;
+        text-align: center;
+        font-weight: bold;
+      }
+
+      h2 {
+        text-align: center;
+        font-size: 1.5rem;
+      }
+
+      .iconDiv {
+        margin: auto;
+        text-align: center;
+        padding-top: 5%;
+        .icon {
+          width: 100px;
+          height: 100px;
+          margin: auto;
+          color: #7f01fe;
+        }
+      }
+    }
+  }
+
+  .second {
+    height: 60vh;
+    color: #fff;
+    border: 1px solid #d4d4d4;
+    padding-left: 15%;
+    padding-right: 15%;
+    background: linear-gradient(90deg, #fc466b 0%, #3f5efb 100%);
+
+    .story {
+      width: 60%;
+      height: 40vh;
+      margin: auto;
+      text-align: center;
+      padding-top: 10%;
+
+      h2 {
+        text-align: center;
+        font-size: 1.5rem;
+      }
+
+      p {
+        font-size: 1.2rem;
+      }
+    }
+  }
+
+  .third {
+    height: 70vh;
+    color: #fff;
+    border: 1px solid #fff;
+    padding-left: 15%;
+    padding-right: 15%;
+    color: #000;
+
+    .skills {
+      height: 70vh;
+      width: 80%;
+      margin: auto;
+      border: 1px solid #d4d4d4;
+      border-radius: 5px;
+      display: grid;
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+      justify-content: space-between;
+      background-color: #fff;
+      color: #000;
+      margin-top: -10%;
+      text-align: center;
+
+      .iconDiv {
+        margin: auto;
+        text-align: center;
+        padding-top: 2%;
+        .icon {
+          width: 50px;
+          height: 50px;
+          margin: auto;
+          color: #7f01fe;
+        }
+      }
+
+      h2 {
+        text-align: center;
+        font-size: 1.5rem;
+      }
+
+      h3 {
+        color: #7f01fe;
+        font-size: 1.3rem;
+      }
+
+      p {
+        font-size: 1.2rem;
+        margin: 0;
+      }
+
+      .tools {
+        p {
+          margin: 0;
+        }
+      }
+    }
+  }
+
+  .fourth {
+    height: 100vh;
+    color: #000;
+    border: 1px solid #d4d4d4;
+    padding-left: 15%;
+    padding-right: 15%;
+
+    h2 {
+      text-align: center;
+      font-size: 1.5rem;
+      padding-top: 5%;
+    }
+
+    p {
+      font-size: 1.2rem;
+      text-align: center;
+      padding-bottom: 5%;
+    }
+
+    .projects {
+      border: 1px solid #d4d4d4;
+      border-radius: 5px;
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      justify-content: space-between;
+
+      .box {
+        width: 400px;
+        height: 200px;
+        border: 1px solid #d4d4d4;
+        text-align: center;
+        padding: 2%;
+        margin: 5%;
+      }
+    }
+
+    .linkDiv {
+      height: 10vh;
+      text-align: center;
+      padding: 5% 0% 5% 0%;
+
+      .link {
+        height: 60px;
+        color: #7f01fe;
+        width: 300px;
+        padding: 1%;
+        background-color: #fff;
+        border: 1px solid #7f01fe;
+        border-radius: 20px;
+
+        a {
+          font-size: 1.2rem;
+        }
+
+        &:hover {
+          background-color: #7f01fe;
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  .fifth {
+    height: 70vh;
+    color: #fff;
+    border: 1px solid #fff;
+    padding-left: 15%;
+    padding-right: 15%;
+    background: linear-gradient(90deg, #fc466b 0%, #3f5efb 100%);
+
+    h2 {
+      text-align: center;
+      font-size: 1.5rem;
+      padding-top: 5%;
+    }
+
+    p {
+      font-size: 1.2rem;
+      text-align: center;
+      padding-bottom: 5%;
+    }
+
+    .testimonial {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      justify-content: space-between;
+
+      .box {
+        margin: 5%;
+        padding: 0% 5% 0% 5%;
+      }
+    }
+  }
+
+  .sixth {
+    height: 70vh;
+    color: #000;
+    border: 1px solid #fff;
+    padding-left: 15%;
+    padding-right: 15%;
+
+    h2 {
+      text-align: center;
+      font-size: 1.5rem;
+      padding-top: 5%;
+    }
+
+    .contact {
+      width: 70%;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      justify-content: space-between;
+
+      .action {
+        color: #7f01fe;
+        text-decoration: underline;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  .footer {
+    height: 40vh;
+    color: #fff;
+    border: 1px solid #fff;
+    padding-left: 15%;
+    padding-right: 15%;
+    background: linear-gradient(90deg, #fc466b 0%, #3f5efb 100%);
+
+    .iconDiv {
+      margin: auto;
+      text-align: center;
+      padding-top: 5%;
+      .icon {
+        width: 25px;
+        height: 25px;
+        margin: auto;
+        color: #fff;
+        margin-left: 2%;
+        margin-right: 2%;
+      }
+    }
+  }
+}

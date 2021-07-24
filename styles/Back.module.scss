@@ -1,0 +1,55 @@
+.back {
+  background: transparent;
+  z-index: 99;
+  position: fixed;
+  right: 8%;
+  top: 8%;
+
+  .backButton {
+    color: #7f01fe;
+    background-color: #fff;
+    width: 60px;
+    height: 60px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border: 2px solid #7f01fe;
+    transition: all ease 2s;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+    opacity: 1;
+
+    &:hover {
+      transform: rotate(360deg);
+    }
+  }
+}
+
+@media all and (max-width: 780px) {
+  .backContainer {
+    right: 5%;
+    top: 5%;
+    z-index: 1;
+
+    .backButton {
+      font-size: 1.2rem;
+      border: 1px solid #7f01fe;
+      background-color: rgba(#7f01fe, 0.1);
+    }
+  }
+}
+
+@media print {
+  .backContainer,
+  .backContainer * {
+    display: none !important;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
